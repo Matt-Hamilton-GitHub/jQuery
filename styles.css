@@ -1,0 +1,13 @@
+img{
+    width: auto;
+    height: 500px;
+    object-fit: cover;
+}
+
+.cat-div{
+    display: grid;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    
+}
