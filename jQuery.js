@@ -7,7 +7,8 @@ $('#get-cat-btn').click(()=>{
 $.getJSON('http://aws.random.cat/meow')
 
 .done((data)=>{
- setCat.src = data.file;
+//  setCat.src = data.file;
+$('#cat-img').attr('src',data.file )
  console.log(data);
 }).fail((data)=>{
 
